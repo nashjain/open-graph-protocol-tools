@@ -1,4 +1,6 @@
 <?php
+
+namespace Chewbakka\OpenGraphProtocolTools;
 /**
  * Open Graph Protocol data class. Define and validate OGP values.
  *
@@ -601,7 +603,3 @@ class OpenGraphProtocol {
 		return $this;
 	}
 }
-
-include_once dirname(__FILE__) . '/media.php';  // image, video, audio
-include_once dirname(__FILE__) . '/objects.php'; // global objects: profile, article
-?>
