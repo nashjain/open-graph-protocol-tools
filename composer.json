@@ -1,0 +1,32 @@
+{
+  "name": "chewbakka/open-graph-protocol-tools",
+  "description": "Tools to validate and sanitize inputs before generating Open Graph protocol markup on your webpages. This project standardizes outputs for easy indexing by consuming agents. Based on https://github.com/niallkennedy/open-graph-protocol-tools",
+  "keywords": [
+    "open graph",
+    "opengraph",
+    "facebook",
+    "google+"
+  ],
+  "homepage": "http://github.com/Chewbakka/open-graph-protocol-tools",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Niall Kennedy",
+      "email": "niall@niallkennedy.com",
+      "homepage": "http://www.niallkennedy.com/blog/"
+    },
+    {
+      "name": "Tsoy Dmitry",
+      "email": "hd.deman@gmail.com",
+      "homepage": "http://lacroco.ru/"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.2"
+  },
+  "autoload": {
+    "psr-0": {
+      "Imagine": "lib/"
+    }
+  }
+}
