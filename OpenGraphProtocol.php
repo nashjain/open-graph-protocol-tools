@@ -199,7 +199,7 @@ class OpenGraphProtocol {
 			),
 			_('People') => array(
 				'actor' => _('Actor or actress'),
-				'athlete' => _('Athlete'), 
+				'athlete' => _('Athlete'),
 				'author' => _('Author'),
 				'director' => _('Director'),
 				'musician' => _('Musician'),
@@ -538,7 +538,7 @@ class OpenGraphProtocol {
 	 *
 	 * @param OpenGraphProtocolImage $image image object to add
 	 */
-	public function addImage( OpenGraphProtocolImage $image ) {
+	public function addImage(Media\OpenGraphProtocolImage $image ) {
 		$image_url = $image->getURL();
 		if ( empty($image_url) )
 			return;
@@ -564,7 +564,7 @@ class OpenGraphProtocol {
 	 *
 	 * @param OpenGraphProtocolAudio $audio audio object to add
 	 */
-	public function addAudio( OpenGraphProtocolAudio $audio ) {
+	public function addAudio(Media\OpenGraphProtocolAudio $audio ) {
 		$audio_url = $audio->getURL();
 		if ( empty($audio_url) )
 			return;
@@ -590,7 +590,7 @@ class OpenGraphProtocol {
 	 *
 	 * @param OpenGraphProtocolVideo $video video object to add
 	 */
-	public function addVideo( OpenGraphProtocolVideo $video ) {
+	public function addVideo(Media\OpenGraphProtocolVideo $video ) {
 		$video_url = $video->getURL();
 		if ( empty($video_url) )
 			return;
