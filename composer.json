@@ -26,7 +26,8 @@
   },
   "autoload": {
     "psr-0": {
-      "Chewbakka\OpenGraphProtocolTools": "lib/"
+      "Chewbakka\\OpenGraphProtocolTools": ""
     }
-  }
+  },
+  "target-dir": "Chewbakka/OpenGraphProtocolTools"
 }
