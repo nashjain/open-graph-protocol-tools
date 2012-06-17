@@ -1,4 +1,4 @@
-<?php 
+<?php
 namespace Chewbakka\OpenGraphProtocolTools\Objects;
 use Chewbakka\OpenGraphProtocolTools\OpenGraphProtocol;
 
@@ -19,7 +19,7 @@ abstract class OpenGraphProtocolObject {
 	 * @param DateTime $date date to convert
 	 * @return string ISO 8601 formatted datetime string
 	 */
-	public static function datetime_to_iso_8601( DateTime $date ) {
+	public static function datetime_to_iso_8601( \DateTime $date ) {
 		$date->setTimezone(new DateTimeZone('GMT'));
 		return $date->format('c');
 	}
