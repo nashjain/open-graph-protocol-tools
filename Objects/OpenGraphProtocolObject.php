@@ -20,7 +20,7 @@ abstract class OpenGraphProtocolObject {
 	 * @return string ISO 8601 formatted datetime string
 	 */
 	public static function datetime_to_iso_8601( \DateTime $date ) {
-		$date->setTimezone(new DateTimeZone('GMT'));
+		$date->setTimezone(new \DateTimeZone('GMT'));
 		return $date->format('c');
 	}
 
